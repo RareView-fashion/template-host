@@ -2967,6 +2967,7 @@ body {
 .main__achievements-spin {
   background: url(img/win.png) no-repeat  0.9vw;
   background-size: 60% 50%;
+  /* background-position: center center; */
   opacity: .85;
   width: 535px;
   height: 480px;
@@ -2981,21 +2982,25 @@ body {
   .main__achievements-bonus,
   .main__achievements-spin {
     width: 357px;
-    height: 320px;
+  background-size: 58% 40%;
+  height: 320px;
   }
 }
 @media screen and (max-width: 1365.9px) {
   .main__achievements-bonus,
   .main__achievements-spin {
     width: 290px;
-    height: 260px;
+  background-size: 65% 50%;
+  /* margin-right: 20px; */
+  height: 260px;
   }
 }
 @media screen and (max-width: 919.9px) {
   .main__achievements-bonus,
   .main__achievements-spin {
     width: 223px;
-    height: 200px;
+  background-size: 60% 68%;
+  height: 200px;
     /* top:-315px; */
   }
 }
@@ -3003,7 +3008,8 @@ body {
   .main__achievements-bonus,
   .main__achievements-spin {
     width: 46vw;
-    top:-315px;
+  background-size: 50% 50%;
+  top:-289px;
     height: 41vw;
   }
 }
@@ -3925,34 +3931,36 @@ body {
   }
 }
 .lights-content__value {
-  font-size: 50px;
+  font-size: 20px;
   color: #fff;
   -webkit-text-stroke: 0;
 }
 @media screen and (max-width: 1919.9px) {
   .lights-content__value {
-    font-size: 48px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1365.9px) {
   .lights-content__value {
-    font-size: 34px;
+    font-size: 18px;
+    word-wrap: break-word;
   }
 }
 @media screen and (max-width: 919.9px) {
   .lights-content__value {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 479.9px) {
   .lights-content__value {
-    font-size: 4vw;
+    font-size: 10px;
+    margin-left: 12px;
     -webkit-text-stroke: 0;
   }
 }
 @media screen and (orientation: landscape) and (max-height: 420px) and (min-aspect-ratio: 13/9) {
   .lights-content__value {
-    font-size: 3vw;
+    /* font-size: 3vw; */
     -webkit-text-stroke: 0;
   }
 }
